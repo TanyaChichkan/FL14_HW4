@@ -1,0 +1,283 @@
+:root {
+--title-color: #000000;
+--text-color: #7D7987;
+--secondary-text-color: #FFFFFF;
+--button-color: #458FF6;
+}
+
+.none-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+p,h1,h2 {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.header{
+    background-color: #0b013c;
+}
+
+.header_container {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 36px;
+  width: 1540px;
+  min-height: 100vh;
+  margin: 0 auto;
+
+  background-image: url('../img/header-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 85%;
+
+  color: white;
+}
+
+.site-logo{
+    display: block;
+    border: 1px solid white;
+    max-width: 236px;
+    color: white;
+    font-size: 30px;
+    line-height: 150%;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.header-wrapper{
+    margin-top: 188px;
+    max-width: 626px;
+    
+}
+
+.site-title{
+    margin-bottom: 50px;
+    font-size: 90px;
+}
+
+.header_title{
+    margin-bottom: 40px;
+    font-size: 34px;
+}
+
+.header_text{
+    margin-bottom: 50px;
+    font-size: 17px;
+    font-style: italic;
+    letter-spacing: 0.05em;
+}
+
+.header_input{
+    width: 455px;
+    height: 61px;
+    padding-left: 16px;
+}
+
+.header_input::placeholder{
+    font-size: 18px;
+}
+
+.header_button{
+    width: 144px;
+    height: 61px;
+    margin-left: 22px;
+    background-color: #f8cb8a;
+    border: none;
+    font-size: 20px;
+}
+
+.header_button:hover{
+    background-color: #f6bb66;
+}
+
+.section{
+    margin-bottom: 205px;
+}
+
+.main{
+    background-color: #fefaf3;
+}
+
+.main_container{
+    width: 1425px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+}
+
+.main-wrapper{
+    padding-top: 50px;
+    padding-bottom: 72px;
+}
+
+.section_text{
+    margin-bottom: 40px;
+    font-size:32px;
+    
+}
+
+.section_card {
+    width: 1090px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
+
+.change-backcolor{
+    background-image: url('../img/space-bg.png');
+    background-color: #0b013c;
+    padding-top:166px;
+    padding-bottom: 166px;
+    margin-bottom: 0;
+}
+
+
+
+.middle-card{
+    width: 664px;
+    margin:0;
+    align-items: flex-start;
+    background-color: white;
+    padding-top:55px;
+    padding-bottom: 58px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.section_title{
+    font-size: 59px;
+    color:  #0b013c;
+}
+
+
+
+.top-title{
+    text-align: center;
+}
+
+.change-color{
+    color: white;
+    margin-bottom: 0;
+}
+
+.section_title:after{
+    content: '';
+    display: block;
+    width: 126px;
+    height: 12px;
+    margin: 0 auto;
+    margin-top: 48px;
+    background-color: #f8cb8a;
+}
+
+.section_content{
+    margin: 0 auto;
+    margin-top: 38px;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 0.04em;
+    color: #808080;
+}
+
+.change-title{
+    color: white;
+    text-align: center;
+}
+
+.section-wrapper{
+    display: flex;
+    margin-bottom: 148px;
+}
+
+
+.section_list{
+    display: flex;
+}
+
+.list_item{
+    width: calc((100% - 120px) /2);
+    margin: 0;
+    margin-right:120px;
+}
+
+.list_item:last-child{
+    margin-right: 0;
+}
+
+.list_text{
+    padding-left: 22px;
+    padding-top:44px;
+    padding-bottom: 52px;
+    background-color: white;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.footer{
+    
+    min-height: 625px;
+    background-image: url('../img/footer-bg.jpeg');
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.footer_contacts{
+    width: 518px;
+    color: white;
+}
+
+.contacts_title{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.footer_container{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+    min-height: 625px;  
+  width: 1410px;
+  
+  margin: 0 auto;
+  white-space: nowrap;
+}
+
+
+
+.contacts_title{
+    margin-bottom: 40px;
+}
+
+.contacts_adress{
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.footer_bottom{
+    display: block;
+    height: 87px;
+    background-color: white;
+}
+
